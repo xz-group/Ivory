@@ -2,7 +2,7 @@ Ivory: Early Stage Design Exploration Tool for Integrated Voltage Regulator
 
 Ivory contains two parts: static model part and dynamic model part.
 Static Model part gives out efficiency, area and ripple of an integrated voltage regulator.
-Dynamic Model part gives out the transient voltage waveform.
+Dynamic Model part gives out the transient voltage waveform based on ngspice(SPICE3) circuit simulator.
 
 main.cc is the main function. Users can choose the type of IVR and also can select to use the static model or dynamic model.
 static_buck.cc is the static model for integrated buck converter.
